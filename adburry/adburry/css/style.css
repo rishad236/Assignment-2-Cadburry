@@ -1,0 +1,128 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom, #5c3c92, #3c2052);
+    color: #f6f1f1;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+#description {
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p {
+    color: #220e0e;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to bottom, #6b4d9e, #3c2052);
+    color: #000000;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    transition: filter 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    filter: grayscale(100%);
+}
+
+.company-info {
+    margin-top: 10px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #5c3c92;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #7043a0;
+}
+
+.contact-form {
+    margin-top: 20px;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(201, 9, 9, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../pics/form.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    margin-top: 10px;
+    color: #fff;
+}
